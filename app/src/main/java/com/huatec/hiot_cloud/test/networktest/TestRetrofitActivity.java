@@ -47,7 +47,7 @@ public class TestRetrofitActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               login2("zyh", "abc123", "app");
+               login2("dyj", "abc123", "app");
             }
         });
 
@@ -56,7 +56,7 @@ public class TestRetrofitActivity extends AppCompatActivity {
         btnUserInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getUserInfo("37696f31893d437db96305ce3f10234e_e97741bea4e64d26933061e8f5b84322_use");
+                getUserInfo("5a17480a54954c2a8b445595b7dce807_bfa8e02370ca4d0fa7fd279875a9c494_use");
 
             }
         });
@@ -66,8 +66,8 @@ public class TestRetrofitActivity extends AppCompatActivity {
         btnUpdateEmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                updateEmail("37696f31893d437db96305ce3f10234e_e97741bea4e64d26933061e8f5b84322_use",
-                        "zhangyuh@qq.com");
+                updateEmail("5a17480a54954c2a8b445595b7dce807_bfa8e02370ca4d0fa7fd279875a9c494_use",
+                        "yj3854@qq.com");
             }
         });
 
@@ -86,8 +86,8 @@ public class TestRetrofitActivity extends AppCompatActivity {
      */
     private void register() {
         UserBean userBean = new UserBean();
-        userBean.setUsername("zhangyh");
-        userBean.setEmail("zhangyuhui@qq.com");
+        userBean.setUsername("deng66y");
+        userBean.setEmail("dengyj845@qq.com");
         userBean.setPassword("abc123");
         userBean.setUserType("1");
         Call<ResponseBody> call = service.register(userBean);

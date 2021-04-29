@@ -58,7 +58,7 @@ public class TestOkHttpActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                login("zyh","abc123","app");
+                login("dyj","abc123","app");
             }
         });
 
@@ -68,7 +68,7 @@ public class TestOkHttpActivity extends AppCompatActivity {
         btnGetUserInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getUserInfo("37696f31893d437db96305ce3f10234e_97f04653b1a64a6eaa79b5140947b523_use");
+                getUserInfo("5a17480a54954c2a8b445595b7dce807_340fbf654c0b4b77addce7a27598860c_use");
             }
         });
 
@@ -77,8 +77,8 @@ public class TestOkHttpActivity extends AppCompatActivity {
         btnUpdateEmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                updateEmail("37696f31893d437db96305ce3f10234e_97f04653b1a64a6eaa79b5140947b523_use",
-                "zhangyh@qq.com");
+                updateEmail("5a17480a54954c2a8b445595b7dce807_340fbf654c0b4b77addce7a27598860c_use",
+                "deng15643@qq.com");
             }
         });
     }
