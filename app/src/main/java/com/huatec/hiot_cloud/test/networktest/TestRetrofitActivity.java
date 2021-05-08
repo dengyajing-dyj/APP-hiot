@@ -56,7 +56,7 @@ public class TestRetrofitActivity extends AppCompatActivity {
         btnUserInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getUserInfo("5a17480a54954c2a8b445595b7dce807_bfa8e02370ca4d0fa7fd279875a9c494_use");
+                getUserInfo("5a17480a54954c2a8b445595b7dce807_be2f2ed1383842da8a49054d44426145_use");
 
             }
         });

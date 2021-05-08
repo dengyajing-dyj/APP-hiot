@@ -18,7 +18,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".test.networktest.TestRetrofitActivity">
+
+        <activity android:name=".test.networktest.TestRxJavaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,6 +27,9 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".test.networktest.TestRetrofitActivity">
+        </activity>
+
         <activity android:name=".test.networktest.TestOkHttpActivity">
 
 
